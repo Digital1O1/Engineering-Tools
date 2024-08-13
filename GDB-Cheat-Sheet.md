@@ -9,6 +9,7 @@
 | **Step Out**                      | `finish`                                            | Continue running until the current function returns.            |
 | **Set Breakpoint**                | `break filename:line_number`                        | Set a breakpoint at a specific line.                            |
 |                                   | `break function_name`                               | Set a breakpoint at a specific function.                        |
+|                                   | `break line_number` --> `break 605`                               | Set a breakpoint at a specific line `605`                        |
 | **List Breakpoints**              | `info breakpoints`                                  | List all breakpoints.                                           |
 | **Delete Breakpoint**             | `delete breakpoint_number`                          | Delete a specific breakpoint.                                   |
 | **Run Program**                   | `run`                                               | Run the program.                                                |
